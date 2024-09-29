@@ -92,6 +92,19 @@ body {
    .topnav-right {
      float: right;
    }
+
+   /* Column layout */
+   .column {
+    float: left;
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .row::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
    
    /* Responsive navigation menu (for mobile devices) */
    @media screen and (max-width: 600px) {
@@ -106,6 +119,10 @@ body {
        left: 0;
        transform: none;
      }
+
+     .column {
+        width: 100%;
+      }
    }
    
    /* slideshow */
