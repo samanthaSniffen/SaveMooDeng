@@ -11,7 +11,7 @@ body {
    }
    
    a:hover {
-     color: #3C493F;
+     color: #2D936C;
    }
    
    h3 {
@@ -73,12 +73,12 @@ body {
    
    .topnav a:hover {
      background-color: #C9B79C;
-     color: #342A21;
+     color: #2D936C;
    }
    
    .topnav a.active {
      background-color: #C9B79C;
-     color: #342A21;
+     color: #2D936C;
    }
    
    .topnav-centered a {
